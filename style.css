@@ -1,39 +1,52 @@
- @media screen and (max-width: 1000px) {
-     .image-container {
-         background-color: bisque;
-     }
+body {
+    background-color: #ffc1073d;
+}
 
-     .article {
-         color: red;
-     }
- }
+img {
+    width: 300px;
+    height: auto;
+}
 
- @media screen and (max-width: 860px) {
-     .image-container {
-         background-color: rgb(116, 204, 191);
-     }
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: rgb(207, 59, 43);
+    }
 
-     .article {
-         color: green;
-     }
- }
+    img {
+        width: 250px;
+    }
+}
 
- @media only screen and (max-width : 720px) {
-     .image-container {
-         background-color: rgb(200, 115, 115);
-     }
+@media screen and (max-width: 860px) {
+    body {
+        background-color: rgb(116, 204, 191);
+    }
 
-     .article {
-         color: yellow;
-     }
- }
+    img {
+        width: 200px;
+        height: auto;
+    }
+}
 
- @media only screen and (max-width : 480px) {
-     .image-container {
-         background-color: rgb(211, 120, 225);
-     }
+@media only screen and (max-width : 720px) {
+    body {
+        background-color: rgb(74, 76, 105);
+    }
 
-     .article {
-         color: rgb(211, 120, 225);
-     }
- }
+    img {
+        width: 150px;
+        height: auto;
+    }
+
+}
+
+@media only screen and (max-width : 480px) {
+    body {
+        background-color: rgb(211, 120, 225);
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+    }
+}
